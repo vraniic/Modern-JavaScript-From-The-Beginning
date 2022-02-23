@@ -1,1 +1,8 @@
+git add .
+git checkout -b section#-section-title
+git commit -m "date - description of whole day working"
+git push origin section#-section-title
+
 23.02.2022
+Nauscio sam kako se instalira VS code 
+Necemo se baviti librarijima nego iskljcuivo JS jezikom
