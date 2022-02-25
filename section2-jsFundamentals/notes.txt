@@ -1,0 +1,88 @@
+script:src="ime JS fajl" - tako povezujemo js fajl sa html
+
+primtive types:
+string
+numbersboolea
+null
+umdefined
+symbol
+
+
+reference types:
+array
+object literal
+
+dynamicly typed language: znaci ne moramo pre pisanja da naznacimo sta cemo pisati (string, numbers etc)
+
+String() i toString radi istu stvar
+
+NaN = not a number 
+
+
+append je "+=" 
+concatenate ej samo sa + 
+
+escaping 
+
+template literals = ${variable} procita VAR u ne treba nam onda eppendin i concatenation
+
+SKRACENI OBLIK IF
+
+AGE < 30 ? "SHE IS YOUNG" : "SHE IS OLD"
+
+"?"znaci then a ":" znace else 
+
+na objektima se koristi objekat.ime ovo "ime" je u slucaju da nam treba samo jedan podataak iz nekog objekta
+
+treba da se koirste === (3 znaka jendakosti za proveravanje da li je nesto jednako) jer 
+se tako proverava i da li je  typeof isti 
+
+a ako stavimo == onda se samo proverava value toga sto uporedjujemo.
+
+|| <- ovo znaci ili kada radimo if 
+
+&& ovo znaci "i" tj da moraju oba uslova da budu ispunjena
+
+SWITCHES
+koriste se kada imamo vise ifova tj. ivse "caseova" ili bi imali previse elsova
+umesto toga stavimo casove za sve moguce ishode i na kraju stavimo "default"
+case to je ako nista od navedenog nije istrina desice se ta poslednja opicja
+
+mogu da dodajem stvari u objekte tako sto cu staviti ime objekta pod tackom i sta zelim da dodajem
+const todo = {
+    name: "viktor",
+    age:35,
+
+}
+
+todo.lastName = "vranic" 
+
+WHILE LOOP 
+i = 0
+ while (i < 10) {
+    console.log(number ${i})
+    i++
+}
+
+FOR EACH  
+let cars = [ford, merc, bmw, lambo]
+
+cars.forEach(function(car){
+    console.log(car)
+})
+
+// output bi trebalo da bude"
+ford
+merc
+bmw
+lambo
+
+
+scrollY
+scrollX
+
+
+window.navigator.platform
+window.navigator.vendor
+window.navigator.language
+
