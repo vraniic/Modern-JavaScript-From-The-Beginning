@@ -1,0 +1,74 @@
+DOM je tree elemenata 
+
+ne moze da se koirsti FOR EACH loop
+ali mozemo da stavimo array.from(element) 
+da bi mogli da stavimo taj element u for each 
+
+jQuery ne treba koristiti u DOM vec samo JS
+
+getelementByID radi sikljcuivo sa ID od elemenata 
+
+ako zelimo da menajmo style elemanta to mozemo da rradim uz pomoc js
+- oznacim oelemnt koji zelimo da promenimio style i na kraju lementa 
+npr document.getelementByID('task-title) <X>
+
+tu gde se nalazi "x" stavimo .style.padding/color/background etc etc 
+  
+  
+elemente mozemo "uzeti" preko Id kao i class name i tag name 
+ 3
+
+list.childElementCount nam daje borj elemenata koji su child nazancenog leemnta na pocetku
+sdfsaf
+
+element.Id = "ime ID" i onda smo dodali id elementu kroz js
+isto to mozemo da uradimo i za class name
+element.setAttribute 
+
+
+addEdventListener uzima dva parametra (prvi, drugi)
+ prvi - sta treba da "slusa" tj sta da ceka
+ drugi - sta treba da uradi kada se dogodi taj addEdventListener
+(funkcija most of the times)
+
+mozemo da dobijemo koordinate eventa koji se dogadja.
+mozemo da dobijemo i e.typed
+kao i offSet 
+
+elent.remove() 
+
+element.removeChild(element2[koje dete brisemo])
+
+REPLACING ELEMENTS .replace
+
+element.preventDedailtBehaviour - onda npr href nece nas poslati na drugu stranicu nego cemo ostati na istoj
+
+MOUSE EVENTS 
+click - "click"
+double click - "dblclick"
+
+mouse down - 'mousedown'
+
+mouse up - 'mouseup'
+
+mouseenet - ''mouseenter'
+mouseleaeve - 'mouseleave'
+
+pva poseldnja dva sluze kada smo 'uudjemo u neki element' tj. kad ga hoverujemo 
+
+events on keyboard
+
+keydown - ||
+
+target .value nam omogucava da mozemo da sleektujemo ono sto pisemo 
+
+keyup - kada se key na tastaturi pusti neko dugme
+key press - cim se klikne neko dugme
+
+
+blur 
+focus 
+ova dva mi nisu bas najjasnija sta rade osim sto mozemo da logujemo kada sm kliknuli van (blur) nekog objekta  a kada na (focus)
+
+imamo eventove jos i copy paste i cut 
+a imamo i event INPUT koji reaguje na sve apsolutno 
