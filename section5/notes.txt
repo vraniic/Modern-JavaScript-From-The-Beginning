@@ -1,0 +1,15 @@
+van funkicje this refferuje na global window
+
+mozemo primera radi staviti this.alert(hello)
+i to ce pprintovat ialert hello
+u strict-mode ukoliko this nije definisano kada se egexkutuju funckija onda this dobijamo da je
+undefined
+
+
+untuar klasa je this slicno kao i u funcikijama ostalim jer su klase zapravo funckije
+
+
+prototypes: svaki objekat ima prototajp
+object.prototype
+person.prototype
+
