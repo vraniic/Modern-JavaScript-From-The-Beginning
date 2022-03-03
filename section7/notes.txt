@@ -1,0 +1,27 @@
+Ajax & xml
+iako ima XML u imenu vise se ne koiristi jer je outdated
+danas se koristi json jer je brzi i jednostavniji
+
+ajax nam omogucava da radimo stvari u backgroundu
+tj. da npr refreshujemo stranicu ili neki jedan deo nje 
+tia komentare ili neki post a da nemamo potrebu da refreshujemo celu stranicu 
+mnogo je brze i efikasnije uz pomoc ajaxa
+
+// REST APIS
+
+GET: retrieve data
+POST: submit data to a specified resource - da se postje nesto, doda user etc. 
+PUT: Update specified resource
+DELETE: Delete a srecified resource
+
+mozemo imati SAME EXACT urls dok god su methods drugacije ?(get post put Delete)
+
+Arrow functions 
+ne ttreba nam function ispred
+koristimo "const"
+ispred parametara ide =
+nakon parametra ide fat arrow "=>"
+--> {}
+
+kada imamo jedan parametar ne trebaju nam zagrade moze das zigleda ovako:
+const ime = parametar => {}

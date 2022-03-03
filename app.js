@@ -3,7 +3,7 @@ document.getElementById('button').addEventListener('click', loadCustomer);
 document.getElementById('button').addEventListener('click', loadCustomers);
 
 
-function loadData() {
+function loadCustomer() {
   // Create an XHR Object
   const xhr = new XMLHttpRequest();
 
@@ -30,6 +30,40 @@ function loadData() {
   }}
   
   xhr.send
+
+  // 
+  // 
+  // LOAD CYUSTOMERS
+  // 
+  // 
+  
+  function loadCustomers() {
+    // Create an XHR Object
+    const xhr = new XMLHttpRequest();
+  
+    // OPEN
+    xhr.open('GET', 'customers.json', true);
+  
+  
+  
+    // Optional used for spinners
+    xhr.onprogress = function(){
+      console.log('READYSTATE', xhr.readyState);
+    }
+  
+    xhr.onload = function(){
+      console.log('READYSTATE', xhr.readyState);
+      if(this.status === 200) {
+        document.getElementById('output').innerHTML = `<h1>${this.responseText}</h1>`;
+      }
+    }
+  
+  
+    xhr.onerror = function() {
+      console.log('Request error...');
+    }}
+    
+    xhr.send
 
 // READY STATE VALUES  
 // 0 - req not initialized
